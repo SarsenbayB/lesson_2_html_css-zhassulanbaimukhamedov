@@ -1,0 +1,80 @@
+div.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+div.content {
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+div.content .circle {
+    border: 1px solid #C4C4C4;
+    border-radius: 140px;
+    width: 140px;
+    height: 140px;
+}
+
+/* --------- home work 3 --------- */
+div.content .circle h1 {
+    font-size: 44pt;
+    font-weight: bold;
+    color: #C4C4C4;
+}
+
+
+div.content input[type='button'] {
+    background-color: #9CA1CC;
+    color: white;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+
+
+div.homework4 .row {
+    background-color: rgba(241, 126, 112, 0.15);
+}
+
+div.homework4 .content {
+    background-color: white;
+}
+
+div.homework4 .content h4,
+h5 {
+    text-align: center;
+}
+
+div.homework4 .content h5 {
+    color: #31B6B0;
+}
+
+
+/* --------- home work 5 --------- */
+div.homework5 .row{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.homework5 .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}   
+div.homework5 img{
+    border-radius: 20px;
+}
+div.homework5 .link {
+    position: absolute;
+}
+div.homework5 .link a{
+    background-color: rgba(255, 255, 255, 0.85);
+    border:1px solid #000;
+    color: brown;
+    font-weight:bold;
+    padding:5px;
+
+}
