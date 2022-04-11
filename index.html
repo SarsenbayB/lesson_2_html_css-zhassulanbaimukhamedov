@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h4 id="id12" onclick="">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sit reiciendis incidunt ducimus
+      quas voluptatum, numquam accusamus nam dolor doloremque harum aspernatur, nostrum, iure fuga
+      suscipit. Impedit eius explicabo qui?
+    </h4>
+    <h4></h4>
+    <img src="images/avatar.png" alt="" />
+    <input type="text" value="text2" id="" class="" alt="" />
+
+    <br />
+
+    <!-- блочные элементы -->
+    <p>paragraph</p>
+    <h1>
+      header text1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quae distinctio
+      atque animi dignissimos! Accusantium, velit tempora quis id ducimus ad atque voluptates
+      provident veniam quisquam voluptas repellendus numquam autem.
+    </h1>
+    <h2>header text2</h2>
+    <h3>header text3</h3>
+    <h4>header text4</h4>
+    <h5>header text5</h5>
+    <h6>header text6</h6>
+
+    <!-- маркированный список -->
+    <ul>
+      <li>html</li>
+      <li>css</li>
+      <li>javascript</li>
+    </ul>
+    <!-- нумерованный список -->
+    <ol>
+      <li>html</li>
+      <li>css</li>
+      <li>javascript</li>
+    </ol>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quasi, eos nam consequuntur
+      blanditiis exercitationem, id aspernatur repellat eum amet magni! Necessitatibus adipisci ea
+      illum eligendi cupiditate excepturi eveniet. Delectus.
+    </div>
+
+    <!-- строчные элементы -->
+    <a href="#">link abc</a>
+    <img src="avatar.png" alt="" />
+    <input type="text" />
+    <input type="password" />
+    <input type="submit" />
+    <input type="radio" />
+    <input type="radio" />
+    <input type="checkbox" />
+    <input type="checkbox" />
+    <span>
+      <a href="#"></a>
+      <img src="" alt="" />
+      <!-- <div>asdf</div> -->
+    </span>
+
+    <div>
+      <a href="#">link2</a>
+    </div>
+
+    <!-- Css - язык для описания стилей -->
+    <!-- 1. inline - встроенный стиль  -->
+    <p style="border: 1px solid #000; color: red; font-size: 20px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quos ex praesentium porro
+      laborum temporibus eveniet aspernatur nemo accusantium maxime minus alias voluptas veniam
+      possimus molestiae nostrum, inventore ea corrupti.
+    </p>
+    <div style="color: blue">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. In accusamus dignissimos at dolores
+      et officiis eaque placeat. A delectus officia architecto nesciunt cumque libero, similique
+      sapiente voluptatem ad, ut mollitia!
+    </div>
+    <!-- 2. internal - внут. таблица стилей  -->
+    <style>
+      h1,
+      h2,
+      p,
+      div,
+      a,
+      input,
+      img {
+        color: green;
+      }
+    </style>
+    <h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate possimus quam nostrum
+      nisi quibusdam dignissimos repellat dolorum quisquam. Suscipit delectus sed fugiat. Deleniti,
+      pariatur? Nobis labore voluptatibus reiciendis fugiat.
+    </h1>
+
+    <!-- 3. external - внеш. таблица стилей  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <a href="about.html">About</a>
+
+    <!-- Css селекторы -->
+    <style>
+      p {
+      }
+      /*селектор class*/
+      .cls-txt {
+        color: rgb(68, 43, 22);
+        font-size: 24px;
+      }
+      /*селектор id*/
+      #id-div1 {
+        background-color: chartreuse;
+      }
+    </style>
+    <!--asdfasd-->
+    <input type="text" class="cls-txt" />
+    <div id="id-div1">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet eum molestias tempore fugit?
+      Rem accusamus at quis illum cupiditate dolorum, in ipsa sapiente laborum itaque exercitationem
+      magnam quaerat corrupti dolorem.
+    </div>
+
+    <!-- css цветы -->
+    <style>
+      div.cls-1234 {
+        /* color: #ff0000; */
+        /* color: black; */
+        /* color: rgb(141, 100, 255); */
+        color: rgba(0, 0, 0, 1);
+      }
+    </style>
+    <div class="cls-1234">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quo consequatur delectus
+      itaque minus provident harum error cupiditate ipsam? Placeat sunt dignissimos, quia quam
+      similique animi! Vero quisquam modi expedita?
+    </div>
+
+    <!-- font -->
+    <style>
+      .cls-font12 {
+        color: #000;
+        font-size: 44pt;
+        font-style: italic;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+
+    <div class="cls-font12">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt quod labore nisi neque
+      praesentium molestias qui illo vitae necessitatibus quae hic unde, excepturi laudantium, totam
+      accusantium reiciendis, sit earum commodi.
+    </div>
+
+    <!-- свойства текста -->
+    <style>
+      .cls-text123 {
+        text-decoration: underline;
+        text-align: center;
+        line-height: 44px;
+        white-space: normal;
+        word-spacing: 20px;
+        letter-spacing: 5px;
+      }
+    </style>
+    <div class="cls-text123">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquid quis, officiis nesciunt
+      atque consequatur reiciendis nam temporibus, perferendis recusandae nihil adipisci eos aut
+      voluptate veniam provident inventore porro optio.
+    </div>
+
+    <!-- background -->
+    <style>
+      /* .cls-text234  */
+      body {
+        background-color: aqua;
+        background-image: url(images/avatar.png);
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        /* background-position: center; */
+        background-attachment: fixed;
+      }
+    </style>
+    <div class="cls-text234">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus mollitia perspiciatis quod
+      fuga neque officiis ea voluptas at, voluptates exercitationem nostrum eaque! Nesciunt dolore
+      autem perferendis sequi ea, quae soluta. Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Ducimus mollitia perspiciatis quod fuga neque officiis ea voluptas at, voluptates
+      exercitationem nostrum eaque! Nesciunt dolore autem perferendis sequi ea, quae soluta.
+    </div>
+
+    <!-- display - отображение элементов -->
+    <style>
+      .div1 {
+        width: 300px;
+        background-color: blueviolet;
+
+        display: flex;
+        /*указывает направление*/
+        flex-direction: row;
+        /*выравнивает вдоль контрольной оси*/
+        justify-content: space-around;
+
+        align-items: center;
+        /*перенос блоков на новую строку*/
+        flex-wrap: wrap;
+
+        /*устанавливает внутренние отступы*/
+        padding: 20px;
+
+        /*внешний отступ*/
+        margin: 20px;
+      }
+    </style>
+    <div style="background-color: #000; padding: 1px">
+      <div class="div1">
+        <div
+          style="
+            padding: 40px;
+            border: 1px solid #000;
+            border-width: 4px;
+            border-color: bisque;
+            border-style: dotted;
+            border-radius: 20px;
+            background-color: red;
+            width: 10px;
+            height: 10px;
+          "
+        >
+          1
+        </div>
+        <div style="background-color: rgb(55, 174, 160); width: 20px; height: 50px">2</div>
+        <div style="background-color: rgb(126, 114, 32); width: 40px; height: 15px">3</div>
+        <div style="background-color: rgb(41, 25, 121); width: 50px; height: 23px">4</div>
+        <div style="background-color: rgb(180, 169, 52); width: 30px; height: 65px">5</div>
+        <div style="background-color: rgb(38, 20, 78); width: 25px; height: 10px">6</div>
+        <div style="background-color: red; width: 10px; height: 10px">1</div>
+        <div style="background-color: rgb(55, 174, 160); width: 20px; height: 50px">2</div>
+        <div style="background-color: rgb(126, 114, 32); width: 40px; height: 15px">3</div>
+      </div>
+    </div>
+
+    <!-- псевдоклассы - определенное состояние элемента-->
+    <style>
+      .cls-div3:hover {
+        color: coral;
+      }
+      .cls-txt:focus {
+        color: coral;
+        font-size: 30px;
+      }
+      /* 
+      .ul-first li:first-child {
+        color: blue;
+      }
+      .ul-first li:last-child {
+        color: chartreuse;
+      } 
+      */
+      .ul-first li:nth-child(even) {
+        color: crimson;
+      }
+    </style>
+    <div class="cls-div3">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta voluptatem nobis veniam nihil
+      voluptas fuga adipisci, atque quidem quod, maxime aliquid architecto amet? Voluptatum quidem
+      aspernatur enim distinctio quam illum.
+    </div>
+    <input type="text" class="cls-txt" />
+    <ul class="ul-first">
+      <li>html</li>
+      <li>css</li>
+      <li>javascript</li>
+      <li>html</li>
+      <li>css</li>
+      <li>javascript</li>
+    </ul>
+    <!-- псевдоэлементы - селектор, который определяет область элементов-->
+    <style>
+      .cls-text4::first-letter {
+        color: red;
+      }
+      .cls-text4::first-line {
+        color: red;
+      }
+      .cls-text4::before {
+        content: ">";
+        color: red;
+      }
+      .cls-text4::after {
+        content: "<";
+        color: red;
+      }
+    </style>
+    <div class="cls-text4">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quas, aut quis, saepe quia et a
+      facilis suscipit pariatur explicabo velit omnis dolores repudiandae dolor tempore? Cumque hic
+      vitae eius.
+    </div>
+    <div class="cls-text4">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quas, aut quis, saepe quia et a
+      facilis suscipit pariatur explicabo velit omnis dolores repudiandae dolor tempore? Cumque hic
+      vitae eius.
+    </div>
+
+    <!-- работа с позиционированием и отступами -->
+    <!-- 
+      relative - 
+    absolute
+    sticky 
+    fixed
+   -->
+    <div style="position: relative; top: 20px; left: 20px">
+      Relative Div
+
+      <div style="position: absolute; top: 200px; left: 20px">Absolute Div</div>
+    </div>
+
+    <div style="position: sticky; width: 100%; height: 300px; top: 150px; background-color: red">
+      Sticky Div
+    </div>
+    <div style="position: fixed; width: 100%; height: 100px; top: 0; background-color: yellow">
+      Fixed div
+    </div>
+
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque exercitationem possimus
+      veritatis itaque, quod a, iste hic tempora alias autem natus? Beatae explicabo reprehenderit,
+      asperiores possimus cum suscipit nam culpa!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque exercitationem possimus
+      veritatis itaque, quod a, iste hic tempora alias autem natus? Beatae explicabo reprehenderit,
+      asperiores possimus cum suscipit nam culpa!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque exercitationem possimus
+      veritatis itaque, quod a, iste hic tempora alias autem natus? Beatae explicabo reprehenderit,
+      asperiores possimus cum suscipit nam culpa!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque exercitationem possimus
+      veritatis itaque, quod a, iste hic tempora alias autem natus? Beatae explicabo reprehenderit,
+      asperiores possimus cum suscipit nam culpa!
+    </div>
+
+    <a href="#"><img src="icon-email.png" alt="" /></a>
+  </body>
+</html>
